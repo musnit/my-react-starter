@@ -1,0 +1,3 @@
+split dependencies into dev and not dev
+
+fix heroku build to run on deploy not on dyno start
