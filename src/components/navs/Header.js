@@ -16,7 +16,7 @@ class Header extends Component {
   }
 
   goto = (url) => {
-    this.props.push(url);
+    return () => this.props.push(url);
   }
 
   signOut = () => {
@@ -29,13 +29,13 @@ class Header extends Component {
       <div className='main-nav'>
         <Navbar>
           <Nav>
-            {!this.props.user && <NavItem eventKey={1} className={this.props.pathname === '/'? 'active' : ''} onClick={() => this.goto('/')}>
+            {!this.props.user && <NavItem eventKey={1} className={this.props.pathname === '/'? 'active' : ''} onClick={this.goto('/')}>
               Home
             </NavItem>}
-            {this.props.user && <NavItem eventKey={2} className={this.props.pathname === '/dashboard'? 'active' : ''} onClick={() => this.goto('/dashboard')}>
+            {this.props.user && <NavItem eventKey={2} className={this.props.pathname === '/dashboard'? 'active' : ''} onClick={this.goto('/dashboard')}>
               Dashboard
             </NavItem>}
-            {!this.props.user && <NavItem eventKey={3} className={this.props.pathname === '/signup'? 'active' : ''} onClick={() => this.goto('/signup')}>
+            {!this.props.user && <NavItem eventKey={3} className={this.props.pathname === '/signup'? 'active' : ''} onClick={this.goto('/signup')}>
               Signup
             </NavItem>}
             {this.props.user && <NavItem eventKey={4} onClick={this.signOut}>
