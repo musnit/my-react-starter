@@ -1,3 +1,9 @@
 split dependencies into dev and not dev
 
 fix heroku build to run on deploy not on dyno start
+
+!! heroku port fix
+
+!!basic login/logout component and redux flow
+
+!?basic navigation bar/empty screens flow
