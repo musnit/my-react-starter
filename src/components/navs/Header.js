@@ -29,13 +29,10 @@ class Header extends Component {
       <div className='main-nav'>
         <Navbar>
           <Nav>
-            <NavItem eventKey={1} className={this.props.pathname === '/'? 'active' : ''} onClick={() => this.goto('/')}>
+            {!this.props.user && <NavItem eventKey={1} className={this.props.pathname === '/'? 'active' : ''} onClick={() => this.goto('/')}>
               Home
-            </NavItem>
-            <NavItem eventKey={2} className={this.props.pathname === '/other'? 'active' : ''} onClick={() => this.goto('/other')}>
-              Other
-            </NavItem>
-            {this.props.user && <NavItem eventKey={4} className={this.props.pathname === '/dashboard'? 'active' : ''} onClick={() => this.goto('/dashboard')}>
+            </NavItem>}
+            {this.props.user && <NavItem eventKey={2} className={this.props.pathname === '/dashboard'? 'active' : ''} onClick={() => this.goto('/dashboard')}>
               Dashboard
             </NavItem>}
             {!this.props.user && <NavItem eventKey={3} className={this.props.pathname === '/signup'? 'active' : ''} onClick={() => this.goto('/signup')}>

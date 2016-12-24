@@ -6,7 +6,6 @@ import { syncHistoryWithStore } from 'react-router-redux';
 
 import App from '~/src/components/routes/App';
 import Home from '~/src/components/routes/Home';
-import Other from '~/src/components/routes/Other';
 import Signup from '~/src/components/routes/Signup';
 import Dashboard from '~/src/components/routes/Dashboard';
 
@@ -36,7 +35,6 @@ class RouteContainer extends Component {
       <Router ref='router' history={this.state.history}>
         <Route path='/' component={App}>
           <IndexRoute component={Home} />
-          <Route path='/other' component={Other} />
           <Route onEnter={this.requireAuth.bind(this)}>
             <Route path='/dashboard' component={Dashboard} onEnter={this.requireAuth.bind(this)} />
           </Route>
