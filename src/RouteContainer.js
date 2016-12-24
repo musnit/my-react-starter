@@ -1,10 +1,14 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { Router, Route, browserHistory } from 'react-router'
+import { Router, Route, Redirect, IndexRoute, browserHistory } from 'react-router'
 import { bindActionCreators } from 'redux';
 import { syncHistoryWithStore } from 'react-router-redux';
 
-import App from './App';
+import App from '~/src/components/routes/App';
+import Home from '~/src/components/routes/Home';
+import Other from '~/src/components/routes/Other';
+import Signup from '~/src/components/routes/Signup';
+import Dashboard from '~/src/components/routes/Dashboard';
 
 class RouteContainer extends Component {
 
@@ -13,11 +17,34 @@ class RouteContainer extends Component {
     this.state = { history: syncHistoryWithStore(browserHistory, this.props.store) };
   }
 
+  requireAuth(nextState, replace) {
+    const user = this.props.store.getState().session.user;
+    if (!user) {
+      replace(this.props.defaultNoAuthPath);
+    }
+  }
+
+  requireNoAuth(nextState, replace) {
+    const user = this.props.store.getState().session.user;
+    if (user) {
+      replace(this.props.defaultAuthPath);
+    }
+  }
+
   render() {
     return (
-      <Router ref="router" history={this.state.history}>
-        <Route path="/" component={App}>
+      <Router ref='router' history={this.state.history}>
+        <Route path='/' component={App}>
+          <IndexRoute component={Home} />
+          <Route path='/other' component={Other} />
+          <Route onEnter={this.requireAuth.bind(this)}>
+            <Route path='/dashboard' component={Dashboard} onEnter={this.requireAuth.bind(this)} />
+          </Route>
+          <Route onEnter={this.requireNoAuth.bind(this)}>
+            <Route path='signup' component={Signup} onEnter={this.requireNoAuth.bind(this)} />
+          </Route>
         </Route>
+        <Redirect from='/**' to='/' />
       </Router>
     );
   }

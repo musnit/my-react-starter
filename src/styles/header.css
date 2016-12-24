@@ -1,0 +1,52 @@
+.main-nav {
+
+}
+
+.main-nav .caret {
+  display: none;
+}
+
+.main-nav .navbar {
+  margin-bottom: 0px;
+}
+
+.main-nav .navbar-nav {
+  float: inherit;
+  margin: auto;
+  background-color: #FFFFFF;
+  border: 1px solid  #e7e7e7;
+  padding: 0px;
+  background: #F5F5F5;
+  height: 60px;
+}
+
+.navbar-default {
+  background: transparent;
+  border: none;
+}
+
+.main-nav .active {
+  color: #5E99E5 !important;
+  font-weight: bold;
+  background-color: transparent !important;
+  border-bottom: solid 2px #2F2F2F;
+}
+
+.main-nav a {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin: auto;
+}
+
+.main-nav li {
+  width: 25%;
+  display: flex;
+}
+
+.main-nav ul {
+  display: flex;
+}
+
+.main-nav li {
+  width: 100%;
+}

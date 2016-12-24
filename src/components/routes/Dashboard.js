@@ -1,15 +1,15 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 
-class App extends Component {
+class C extends Component {
 
   render() {
     return (
       <div>
-        Hi!
+        Dashboard
       </div>
     );
   }
 }
 
-export default App;
+export default C;

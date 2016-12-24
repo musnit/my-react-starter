@@ -1,5 +1,6 @@
 //Adapted from https://github.com/este/este/blob/master/src/common/components/createFetch.js
 //This will trigger any actions sent to fetch whenever a component mounts.
+
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 

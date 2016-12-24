@@ -29,7 +29,7 @@ class _ApiClient {
             request.send(data);
           }
           if (this.authToken) {
-            request.set('Authorization', 'Bearer ' + this.authToken);
+            request.set('Authorization', 'Bearer ' + this.user.sessionToken);
           }
           if (progressCallback){
             request.on('progress', progressCallback);
@@ -49,12 +49,12 @@ class _ApiClient {
   }
 }
 
-_ApiClient.prototype.setAuthToken = function (authToken) {
-  this.authToken = authToken;
+_ApiClient.prototype.setUser = function (user) {
+  this.user = user;
 }
 
-_ApiClient.prototype.getAuthToken = function (authToken) {
-  return this.authToken;
+_ApiClient.prototype.getUser = function (user) {
+  return this.user;
 }
 
 const ApiClient = _ApiClient;

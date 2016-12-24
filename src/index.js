@@ -11,7 +11,7 @@ const store = configureStore();
 
 render(
   <Provider store={store}>
-    <RouteContainer store={store} />
+    <RouteContainer store={store} defaultAuthPath='/dashboard' defaultNoAuthPath='/signup'/>
   </Provider>,
   document.getElementById('root')
 );
