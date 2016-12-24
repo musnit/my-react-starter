@@ -6,6 +6,8 @@ import { push } from 'react-router-redux'
 
 import { setSession } from '~/src/actions/session';
 
+import SignupForm from '~/src/components/signup/SignupForm';
+
 class Signup extends Component {
 
   constructor(props) {
@@ -23,10 +25,7 @@ class Signup extends Component {
   render() {
     return (
       <div className="login-page app-page" >
-        {<Button className="login-button" bsStyle="primary"
-          onClick={this.completeSignIn} >
-          Sign In!
-        </Button>}
+        <SignupForm onSubmit={this.completeSignIn} />
       </div>
     );
   }
