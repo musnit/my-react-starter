@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { push } from 'react-router-redux'
 
-import { setSession } from '~/src/actions/session';
+import { setSession } from '~/src/reducers/session';
 
 import SignupForm from '~/src/components/signup/SignupForm';
 

@@ -1,4 +1,6 @@
-import { SET_SESSION, CLEAR_SESSION } from '../constants/ActionTypes';
+const SET_SESSION = 'session/main/SET_SESSION';
+const CLEAR_SESSION = 'session/main/CLEAR_SESSION';
+
 import apiClient from '~/src/services/ApiClient.js';
 
 let localUser = JSON.parse(localStorage.getItem('user'));
@@ -8,7 +10,7 @@ const initialState = {
   user: localUser || undefined
 };
 
-export default function session(state = initialState, action) {
+export default function reducer(state = initialState, action) {
   switch (action.type) {
     case SET_SESSION:
       apiClient.setUser(action.user);
@@ -23,4 +25,12 @@ export default function session(state = initialState, action) {
     default:
       return state
   }
+};
+
+export function setSession(user) {
+  return { type: SET_SESSION, user };
+};
+
+export function clearSession() {
+  return { type: CLEAR_SESSION };
 };

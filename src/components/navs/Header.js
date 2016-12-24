@@ -6,7 +6,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 import { push } from 'react-router-redux';
 import '~/src/styles/header.css';
 
-import { clearSession } from '~/src/actions/session';
+import { clearSession } from '~/src/reducers/session';
 
 class Header extends Component {
 
