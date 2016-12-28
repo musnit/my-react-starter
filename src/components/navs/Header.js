@@ -6,7 +6,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 import { push } from 'react-router-redux';
 import '~/src/styles/header.css';
 
-import { clearSession } from '~/src/reducers/session';
+import { actionCreators } from '~/src/reducers/session';
 
 class Header extends Component {
 
@@ -57,7 +57,7 @@ function mapStateToToProps(state) {
 function mapDispatchToProps(dispatch) {
   return {
     push: bindActionCreators(push, dispatch),
-    clearSession: bindActionCreators(clearSession, dispatch),
+    clearSession: bindActionCreators(actionCreators.clearSession, dispatch),
   };
 }
 

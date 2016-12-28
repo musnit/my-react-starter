@@ -172,6 +172,10 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
+attr-accept@^1.0.3:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/attr-accept/-/attr-accept-1.1.0.tgz#b5cd35227f163935a8f1de10ed3eba16941f6be6"
+
 autoprefixer@^6.3.1:
   version "6.6.0"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-6.6.0.tgz#d5b347ebbaf79e79d30b81c0ee3e482b288527bf"
@@ -731,6 +735,14 @@ boom@2.x.x:
   dependencies:
     hoek "2.x.x"
 
+bootstrap@^3.3.6:
+  version "3.3.7"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.3.7.tgz#5a389394549f23330875a3b150656574f8a9eb71"
+
+bowser@^1.0.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/bowser/-/bowser-1.6.0.tgz#37fc387b616cb6aef370dab4d6bd402b74c5c54d"
+
 brace-expansion@^1.0.0:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.6.tgz#7197d7eaa9b87e648390ea61fc66c84427420df9"
@@ -819,6 +831,10 @@ chalk@^1.0.0, chalk@^1.1.0, chalk@^1.1.1, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
+change-emitter@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/change-emitter/-/change-emitter-0.1.2.tgz#6b88ca4d5d864e516f913421b11899a860aee8db"
+
 chokidar@^1.0.0:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-1.6.1.tgz#2f4447ab5e96e50fb3d789fd90d4c72e0e4c70c2"
@@ -848,7 +864,7 @@ classnames@^1.2.0:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-1.2.2.tgz#e96a2a0222d84925dd8fadb205d66e12f888edf9"
 
-classnames@^2.2.5:
+classnames@^2.1.2, classnames@^2.2.4, classnames@^2.2.5:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
 
@@ -1122,6 +1138,10 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
+date-arithmetic@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/date-arithmetic/-/date-arithmetic-3.1.0.tgz#1fcd03dbd504b9dbee2b9078c85a5f1c7d3cc2d3"
+
 date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
@@ -1142,7 +1162,11 @@ decamelize@^1.0.0, decamelize@^1.1.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
 
-deep-equal@1.0.1:
+deconstruct-number-format@0.0.1, deconstruct-number-format@~0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/deconstruct-number-format/-/deconstruct-number-format-0.0.1.tgz#fbb5d7dcd45bd2b2fa0e579ed91b59c7e29b386a"
+
+deep-equal@1.0.1, deep-equal@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"
 
@@ -1203,7 +1227,7 @@ doctrine@^1.2.2:
     esutils "^2.0.2"
     isarray "^1.0.0"
 
-dom-helpers@^2.4.0:
+dom-helpers@^2.2.4, dom-helpers@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-2.4.0.tgz#9bb4b245f637367b1fa670274272aa28fe06c367"
 
@@ -1536,6 +1560,10 @@ filename-regex@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/filename-regex/-/filename-regex-2.0.0.tgz#996e3e80479b98b9897f15a8a58b3d084e926775"
 
+filesize@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/filesize/-/filesize-3.3.0.tgz#53149ea3460e3b2e024962a51648aa572cf98122"
+
 fill-range@^2.1.0:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/fill-range/-/fill-range-2.2.3.tgz#50b77dfd7e469bc7492470963699fe7a8485a723"
@@ -1590,6 +1618,10 @@ flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
+font-awesome@^4.6.3:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
+
 for-in@^0.1.5:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-0.1.6.tgz#c9f96e89bfad18a545af5ec3ed352a1d9e5b4dc8"
@@ -1611,6 +1643,21 @@ form-data@^2.1.1, form-data@~2.1.1:
     asynckit "^0.4.0"
     combined-stream "^1.0.5"
     mime-types "^2.1.12"
+
+format-number-with-string@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/format-number-with-string/-/format-number-with-string-0.0.2.tgz#eb96e8f1640c921f7414466ccf8dcb3bb6802cba"
+  dependencies:
+    deconstruct-number-format "~0.0.1"
+    format-number "^2.0.1"
+
+format-number@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/format-number/-/format-number-2.0.1.tgz#e9231a8743ca64b47d09555dce40296343be66eb"
+
+formato@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/formato/-/formato-1.0.5.tgz#83495d71299ad512e41240c7098036b36489a281"
 
 formidable@^1.0.17:
   version "1.0.17"
@@ -1799,7 +1846,7 @@ hoek@2.x.x:
   version "2.16.3"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
 
-hoist-non-react-statics@^1.0.3, hoist-non-react-statics@^1.2.0:
+hoist-non-react-statics@^1.0.0, hoist-non-react-statics@^1.0.3, hoist-non-react-statics@^1.0.5, hoist-non-react-statics@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-1.2.0.tgz#aa448cf0986d55cc40773b17174b7dd066cb7cfb"
 
@@ -1838,7 +1885,7 @@ https-browserify@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
 
-hyphenate-style-name@^1.0.0:
+hyphenate-style-name@^1.0.0, hyphenate-style-name@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.2.tgz#31160a36930adaf1fc04c6074f7eb41465d4ec4b"
 
@@ -1892,6 +1939,13 @@ inherits@2.0.1:
 ini@~1.3.0:
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.4.tgz#0537cb79daf59b59a1a517dff706c86ec039162e"
+
+inline-style-prefixer@^2.0.1:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/inline-style-prefixer/-/inline-style-prefixer-2.0.5.tgz#c153c7e88fd84fef5c602e95a8168b2770671fe7"
+  dependencies:
+    bowser "^1.0.0"
+    hyphenate-style-name "^1.0.1"
 
 inquirer@^0.12.0:
   version "0.12.0"
@@ -2026,7 +2080,7 @@ is-primitive@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/is-primitive/-/is-primitive-2.0.0.tgz#207bab91638499c07b2adf240a41a87210034575"
 
-is-promise@2.1.0:
+is-promise@2.1.0, is-promise@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/is-promise/-/is-promise-2.1.0.tgz#79a2a9ece7f096e80f36d2b2f3bc16c1ff4bf3fa"
 
@@ -2156,7 +2210,7 @@ jsx-ast-utils@^1.3.4:
     acorn-jsx "^3.0.1"
     object-assign "^4.1.0"
 
-keycode@^2.1.2:
+keycode@^2.1.1, keycode@^2.1.2:
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/keycode/-/keycode-2.1.8.tgz#94d2b7098215eff0e8f9a8931d5a59076c4532fb"
 
@@ -2218,15 +2272,19 @@ lodash.keys@^3.1.2:
     lodash.isarguments "^3.0.0"
     lodash.isarray "^3.0.0"
 
+lodash.merge@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.0.tgz#69884ba144ac33fe699737a6086deffadd0f89c5"
+
 lodash.pickby@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.pickby/-/lodash.pickby-4.6.0.tgz#7dea21d8c18d7703a27c704c15d3b84a67e33aff"
 
-lodash@^4.0.0, lodash@^4.17.2, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1:
-  version "4.17.2"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.2.tgz#34a3055babe04ce42467b607d700072c7ff6bf42"
+lodash.throttle@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
 
-lodash@^4.17.3:
+lodash@^4.0.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1:
   version "4.17.3"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.3.tgz#557ed7d2a9438cac5fd5a43043ca60cb455e01f7"
 
@@ -2256,6 +2314,22 @@ matchmedia@^0.1.2:
   resolved "https://registry.yarnpkg.com/matchmedia/-/matchmedia-0.1.2.tgz#cfd47f2bf68fbc7f5ea1bd3a3cf1715ecba3c1bd"
   dependencies:
     css-mediaquery "^0.1.2"
+
+material-ui@^0.16.0:
+  version "0.16.6"
+  resolved "https://registry.yarnpkg.com/material-ui/-/material-ui-0.16.6.tgz#683a038c25a6d77e3703a53a4401f3af44bc1db1"
+  dependencies:
+    babel-runtime "^6.11.6"
+    inline-style-prefixer "^2.0.1"
+    keycode "^2.1.1"
+    lodash.merge "^4.6.0"
+    lodash.throttle "^4.1.1"
+    react-addons-create-fragment "^15.0.0"
+    react-addons-transition-group "^15.0.0"
+    react-event-listener "^0.4.0"
+    recompose "^0.21.0"
+    simple-assign "^0.1.0"
+    warning "^3.0.0"
 
 math-expression-evaluator@^1.2.14:
   version "1.2.14"
@@ -2355,7 +2429,7 @@ minimist@^1.2.0:
   dependencies:
     minimist "0.0.8"
 
-moment@^2.14.1:
+moment@^2.17.1:
   version "2.17.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.17.1.tgz#fed9506063f36b10f066c8b59a144d7faebe1d82"
 
@@ -2471,6 +2545,10 @@ num2fraction@^1.2.2:
 number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
+
+numbro@^1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/numbro/-/numbro-1.9.3.tgz#47f727f580aef49fcd5fdd5fa2af7e603e68b530"
 
 oauth-sign@~0.8.1:
   version "0.8.2"
@@ -2953,7 +3031,23 @@ rc@~1.1.6:
     minimist "^1.2.0"
     strip-json-comments "~1.0.4"
 
-react-bootstrap@^0.30.7:
+react-addons-create-fragment@^15.0.0:
+  version "15.4.1"
+  resolved "https://registry.yarnpkg.com/react-addons-create-fragment/-/react-addons-create-fragment-15.4.1.tgz#596fde66cf7f375b5dad3c36ff6efe19c0ac47e7"
+
+"react-addons-shallow-compare@^0.14.0 || ^15.0.0", react-addons-shallow-compare@^15.3.1:
+  version "15.4.1"
+  resolved "https://registry.yarnpkg.com/react-addons-shallow-compare/-/react-addons-shallow-compare-15.4.1.tgz#b68103dd4d13144cb221065f6021de1822bd435a"
+
+react-addons-transition-group@^15.0.0:
+  version "15.4.1"
+  resolved "https://registry.yarnpkg.com/react-addons-transition-group/-/react-addons-transition-group-15.4.1.tgz#27d92717089c5e2db202e654a85b76a41b703acc"
+
+react-addons-update@^15.2.1:
+  version "15.4.1"
+  resolved "https://registry.yarnpkg.com/react-addons-update/-/react-addons-update-15.4.1.tgz#00c07f45243aa9715e1706bbfd1f23d3d8d80bd1"
+
+react-bootstrap@^0.30.0, react-bootstrap@^0.30.7:
   version "0.30.7"
   resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-0.30.7.tgz#39da80088693ecb71e8e63b5bdc313571fd993d1"
   dependencies:
@@ -2971,13 +3065,20 @@ react-deep-force-update@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-1.0.1.tgz#f911b5be1d2a6fe387507dd6e9a767aa2924b4c7"
 
-react-dom@^15.4.1:
+react-dom@^15.1.0, react-dom@^15.2.1, react-dom@^15.4.1:
   version "15.4.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.4.1.tgz#d54c913261aaedb17adc20410d029dcc18a1344a"
   dependencies:
     fbjs "^0.8.1"
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
+
+react-event-listener@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/react-event-listener/-/react-event-listener-0.4.0.tgz#26c40ab18f9f0e0d8d1fed9c3465e79c0a99c9a5"
+  dependencies:
+    react-addons-shallow-compare "^0.14.0 || ^15.0.0"
+    warning "^3.0.0"
 
 react-fontawesome@^1.5.0:
   version "1.5.0"
@@ -2988,6 +3089,16 @@ react-ga@^2.1.2:
   resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-2.1.2.tgz#7af206c5e8761d7176e15773fe826acdb70ac653"
   dependencies:
     object-assign "^4.0.1"
+
+react-input-autosize@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-input-autosize/-/react-input-autosize-1.1.0.tgz#3fe1ac832387d8abab85f6051ceab1c9e5570853"
+
+react-lazy-cache@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/react-lazy-cache/-/react-lazy-cache-3.0.1.tgz#0dc64d38df1767ef77678c5c94190064cb11b0cd"
+  dependencies:
+    deep-equal "^1.0.1"
 
 react-overlays@^0.6.10:
   version "0.6.10"
@@ -3011,7 +3122,7 @@ react-proxy@^1.1.7:
     lodash "^4.6.1"
     react-deep-force-update "^1.0.0"
 
-react-redux@^4.0.0:
+react-redux@^4.0.0, react-redux@^4.4.2, react-redux@^4.4.5:
   version "4.4.6"
   resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-4.4.6.tgz#4b9d32985307a11096a2dd61561980044fcc6209"
   dependencies:
@@ -3056,6 +3167,20 @@ react-router@^3.0.0:
     loose-envify "^1.2.0"
     warning "^3.0.0"
 
+react-select-plus@^1.0.0-beta14.patch1, react-select-plus@^1.0.0-rc.1.patch3:
+  version "1.0.0-rc.1.patch3"
+  resolved "https://registry.yarnpkg.com/react-select-plus/-/react-select-plus-1.0.0-rc.1.patch3.tgz#5d105842573912b9229a9be05f33323516b53cb7"
+  dependencies:
+    classnames "^2.2.4"
+    react-input-autosize "^1.1.0"
+
+react-select@^1.0.0-rc.2:
+  version "1.0.0-rc.2"
+  resolved "https://registry.yarnpkg.com/react-select/-/react-select-1.0.0-rc.2.tgz#9fc11b149a3dc1ac831289d21b40a59742f82f8d"
+  dependencies:
+    classnames "^2.2.4"
+    react-input-autosize "^1.1.0"
+
 react-tap-event-plugin@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/react-tap-event-plugin/-/react-tap-event-plugin-2.0.1.tgz#316beb3bc6556e29ec869a7293e89c826a9074d2"
@@ -3084,7 +3209,22 @@ react-typeahead@^2.0.0-alpha.5:
     classnames "^1.2.0"
     fuzzy "^0.1.0"
 
-react@^15.4.1:
+react-widgets@^3.4.2, react-widgets@^3.4.5:
+  version "3.4.5"
+  resolved "https://registry.yarnpkg.com/react-widgets/-/react-widgets-3.4.5.tgz#04b1f491ffbfe6e6351881ccd7453de62273f957"
+  dependencies:
+    classnames "^2.1.2"
+    date-arithmetic "^3.0.0"
+    dom-helpers "^2.2.4"
+    invariant "^2.1.0"
+    loose-envify "^1.2.0"
+    uncontrollable "^4.0.0"
+    warning "^2.0.0"
+  optionalDependencies:
+    deconstruct-number-format "0.0.1"
+    format-number-with-string "0.0.2"
+
+react@^15.1.0, react@^15.2.1, react@^15.4.1:
   version "15.4.1"
   resolved "https://registry.yarnpkg.com/react/-/react-15.4.1.tgz#498e918602677a3983cd0fd206dfe700389a0dd6"
   dependencies:
@@ -3139,6 +3279,15 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
+recompose@^0.21.0:
+  version "0.21.2"
+  resolved "https://registry.yarnpkg.com/recompose/-/recompose-0.21.2.tgz#ff3fbdb2397b1c77c47d451be2a63b9295d44681"
+  dependencies:
+    change-emitter "^0.1.2"
+    fbjs "^0.8.1"
+    hoist-non-react-statics "^1.0.0"
+    symbol-observable "^1.0.4"
+
 redbox-react@^1.3.0:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/redbox-react/-/redbox-react-1.3.3.tgz#63ec9c2cb9c620c46e2b9f8543b4898f1b787e41"
@@ -3160,6 +3309,62 @@ reduce-function-call@^1.0.1:
   dependencies:
     balanced-match "^0.4.2"
 
+redux-autoform-bootstrap-ui@^1.7.1-experimental:
+  version "1.7.1-experimental"
+  resolved "https://registry.yarnpkg.com/redux-autoform-bootstrap-ui/-/redux-autoform-bootstrap-ui-1.7.1-experimental.tgz#eeab36b5c9b83866def870c58d679553a9f69d8d"
+  dependencies:
+    attr-accept "^1.0.3"
+    bootstrap "^3.3.6"
+    filesize "^3.3.0"
+    font-awesome "^4.6.3"
+    isomorphic-fetch "^2.2.1"
+    react "^15.1.0"
+    react-bootstrap "^0.30.0"
+    react-dom "^15.2.1"
+    react-redux "^4.4.5"
+    react-select-plus "^1.0.0-beta14.patch1"
+    react-widgets "^3.4.2"
+    redux-autoform-utils "^1.0.4-experimental"
+
+redux-autoform-material-ui@^1.1.5-experimental:
+  version "1.1.5-experimental"
+  resolved "https://registry.yarnpkg.com/redux-autoform-material-ui/-/redux-autoform-material-ui-1.1.5-experimental.tgz#b8c3f2c8042123ff2797f02896aeabbc2a4981ff"
+  dependencies:
+    attr-accept "^1.0.3"
+    filesize "^3.3.0"
+    isomorphic-fetch "^2.2.1"
+    material-ui "^0.16.0"
+    react-addons-shallow-compare "^15.3.1"
+    redux-autoform-utils "^1.0.4-experimental"
+
+redux-autoform-utils@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/redux-autoform-utils/-/redux-autoform-utils-1.0.3.tgz#47888951a4d63d243fa6063c5bc4fa5f8f21fd77"
+  dependencies:
+    formato "^1.0.5"
+    react "^15.2.1"
+    underscore "^1.8.3"
+
+redux-autoform-utils@^1.0.4-experimental:
+  version "1.0.4-experimental"
+  resolved "https://registry.yarnpkg.com/redux-autoform-utils/-/redux-autoform-utils-1.0.4-experimental.tgz#52d02e30cc1479e96912bdcad7fb61be53d9410c"
+  dependencies:
+    formato "^1.0.5"
+    react "^15.2.1"
+    underscore "^1.8.3"
+
+redux-autoform@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/redux-autoform/-/redux-autoform-0.10.0.tgz#38918845aca919f3fc3094171b2a5a8f0c2dffd4"
+  dependencies:
+    react "^15.1.0"
+    react-addons-update "^15.2.1"
+    react-dom "^15.1.0"
+    react-redux "^4.4.2"
+    redux "^3.4.0"
+    redux-autoform-utils "^1.0.3"
+    redux-form "^5.2.5"
+
 redux-devtools-instrument@^1.0.1:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/redux-devtools-instrument/-/redux-devtools-instrument-1.5.0.tgz#a92111b8d10cf41139e0f1fdd5e35fc7d8bec5a4"
@@ -3176,9 +3381,18 @@ redux-devtools@^3.3.1:
     redux "^3.5.2"
     redux-devtools-instrument "^1.0.1"
 
-redux-form@^6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/redux-form/-/redux-form-6.4.0.tgz#d56326903bdc30eeea26750ab317cda80691312c"
+redux-form@^5.2.5:
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/redux-form/-/redux-form-5.3.3.tgz#e65e995095c739f068a7c2adfd8229d966a43af8"
+  dependencies:
+    deep-equal "^1.0.1"
+    hoist-non-react-statics "^1.0.5"
+    is-promise "^2.1.0"
+    react-lazy-cache "^3.0.1"
+
+redux-form@^6.4.1:
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/redux-form/-/redux-form-6.4.1.tgz#ef25e4e4d75eef4a32c96b2c44c221cc9f91bca2"
   dependencies:
     array-findindex-polyfill "0.1.0"
     deep-equal "1.0.1"
@@ -3194,7 +3408,7 @@ redux-promise-middleware@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/redux-promise-middleware/-/redux-promise-middleware-4.2.0.tgz#052a7ac2df0e3468e196279f14bdefe711d10cac"
 
-redux@^3.5.2:
+redux@^3.4.0, redux@^3.5.2:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/redux/-/redux-3.6.0.tgz#887c2b3d0b9bd86eca2be70571c27654c19e188d"
   dependencies:
@@ -3412,6 +3626,10 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
+simple-assign@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/simple-assign/-/simple-assign-0.1.0.tgz#17fd3066a5f3d7738f50321bb0f14ca281cc4baa"
+
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
@@ -3588,7 +3806,7 @@ symbol-observable@^0.2.4:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-0.2.4.tgz#95a83db26186d6af7e7a18dbd9760a2f86d08f40"
 
-symbol-observable@^1.0.2:
+symbol-observable@^1.0.2, symbol-observable@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.4.tgz#29bf615d4aa7121bdd898b22d4b3f9bc4e2aa03d"
 
@@ -3710,11 +3928,15 @@ uid-number@~0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/uid-number/-/uid-number-0.0.6.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81"
 
-uncontrollable@^4.0.1:
+uncontrollable@^4.0.0, uncontrollable@^4.0.1:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/uncontrollable/-/uncontrollable-4.0.3.tgz#06ec76cb9e02914756085d9cea0354fc746b09b4"
   dependencies:
     invariant "^2.1.0"
+
+underscore@^1.8.3:
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.8.3.tgz#4f3fb53b106e6097fcf9cb4109f2a5e9bdfa5022"
 
 uniq@^1.0.1:
   version "1.0.1"
@@ -3791,6 +4013,12 @@ vm-browserify@0.0.4:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-0.0.4.tgz#5d7ea45bbef9e4a6ff65f95438e0a87c357d5a73"
   dependencies:
     indexof "0.0.1"
+
+warning@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-2.1.0.tgz#21220d9c63afc77a8c92111e011af705ce0c6901"
+  dependencies:
+    loose-envify "^1.0.0"
 
 warning@^3.0.0:
   version "3.0.0"

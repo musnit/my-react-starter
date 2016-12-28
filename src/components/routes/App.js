@@ -9,7 +9,9 @@ class C extends Component {
     return (
       <div>
         <Header pathname={this.props.location.pathname} />
-        {this.props.children}
+        <div className='content'>
+          {this.props.children}
+        </div>
       </div>
     );
   }

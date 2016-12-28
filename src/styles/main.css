@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+#root > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  background-color: #fbfbfb;
+  flex-grow: 100;
+}

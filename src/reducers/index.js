@@ -5,7 +5,7 @@ import { reducer as formReducer } from 'redux-form';
 import session from './session';
 
 const rootReducer = combineReducers({
-  session,
+  session: session,
   routing: routerReducer,
   form: formReducer
 });

@@ -4,7 +4,9 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { push } from 'react-router-redux'
 
-import { setSession } from '~/src/reducers/session';
+import { actionCreators } from '~/src/reducers/session';
+
+import { reductions } from '~/src/reducers/session';
 
 import SignupForm from '~/src/components/signup/SignupForm';
 
@@ -38,7 +40,7 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
   return {
     push: bindActionCreators(push, dispatch),
-    setSession: bindActionCreators(setSession, dispatch),
+    setSession: bindActionCreators(actionCreators.setSession, dispatch),
   };
 }
 
